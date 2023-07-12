@@ -13,11 +13,11 @@
     interação com o sistema.
     <br><br>
     (EN-US) Matplotlib Charts is a project developed in Python with the Matplotlib, Numpy, and Pandas libraries aimed at data analysis, where it is possible to 
-  observe charts and the levels of alternation between the arranged values. A relevant factor about the project is the implementation of the object-oriented 
-  paradigm, an uncommon pattern in the Python language; therefore, it was necessary to import complementary libraries such as the Abstract Base Classes (ABC) 
-  for the incorporation of abstract classes, as well as the Overrides, which helps in the visualization of methods characterized by the override of inherited 
-  methods from the abstract class. Furthermore, it is worth mentioning that the interaction essentially occurs through the terminal with the proper formatting 
-  of texts and messages arising from the interaction with the system.
+    observe charts and the levels of alternation between the arranged values. A relevant factor about the project is the implementation of the object-oriented 
+    paradigm, an uncommon pattern in the Python language; therefore, it was necessary to import complementary libraries such as the Abstract Base Classes (ABC) 
+    for the incorporation of abstract classes, as well as the Overrides, which helps in the visualization of methods characterized by the override of inherited 
+    methods from the abstract class. Furthermore, it is worth mentioning that the interaction essentially occurs through the terminal with the proper formatting 
+    of texts and messages arising from the interaction with the system.
 </div>
 <br><br>
 
@@ -42,23 +42,13 @@
 
 ## 3. Instalações obrigatórias
 <div align="justify">
-  Como apresentado nos tópicos anteriores, optou-se pela utilização de quatro bibliotecas à parte do conjunto de bibliotecas padrão. Portanto, é necessário
-  realizar a instalação de todas elas. É recomendado seguir as versões especificadas a fim de evitar erros e problemas durante a execução. Abaixo, é possível
-  observar os comandos a serem executados no terminal para instalar as bibliotecas conforme as especificações corretas.
+  Conforme mencionado anteriormente, quatro bibliotecas externas foram selecionadas para uso, além do conjunto de bibliotecas padrão. Assim, é preciso instalar 
+  todas elas. Para isso, abra a IDE ou o terminal na pasta raiz do projeto e execute o comando disposto abaixo.
 </div>
 <br>
 
-```bash
-pip install matplotlib==3.6.2
-```
-```bash
-pip install numpy==1.23.5
-```
-```bash
-pip install overrides==7.3.1
-```
-```bash
-pip install pandas==1.5.2
+```terminal
+pip3 install -r requirements.txt
 ```
 <br><br>
 
